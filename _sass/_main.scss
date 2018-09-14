@@ -1,15 +1,26 @@
-@import 'config';
+@import "config";
 
-@import 'vendor/@dadi/parts/main';
-@import 'vendor/balloon';
+@import "vendor/@dadi/parts/main";
+@import "vendor/balloon";
 
-@import 'components/components.Chart';
-@import 'components/components.Filmstrip';
-@import 'components/components.Footer';
-@import 'components/components.Indicator';
-@import 'components/components.Info';
-@import 'components/components.Loader';
-@import 'components/components.Logo';
-@import 'components/components.LogoTitle';
-@import 'components/components.Section';
-@import 'components/components.TopBar';
+@import "components/components.Chart";
+@import "components/components.Filmstrip";
+@import "components/components.Footer";
+@import "components/components.Indicator";
+@import "components/components.Info";
+@import "components/components.Loader";
+@import "components/components.Logo";
+@import "components/components.LogoTitle";
+@import "components/components.Section";
+@import "components/components.TopBar";
+svg {
+  .st0 {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 2.4627;
+    stroke-miterlimit: 3.8637;
+  }
+  .st1 {
+    fill: #ed1c24;
+  }
+}
