@@ -1,7 +1,7 @@
 .c-TopBar {
   background-color: #FFDD03;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.45);
-  color: white;
+  color: black;
   margin-bottom: 40px;
   text-align: center;
 
@@ -12,6 +12,7 @@
 
 .c-TopBar__inner {
   @include dp-wrapper-gutter;
+  height: 70px;
 
   padding: 6px;
 }
@@ -25,7 +26,7 @@
   background-repeat: no-repeat;
   background-size: 20px;
   border: 0;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
   border-radius: 0;
   color: inherit;
   font: inherit;
@@ -34,7 +35,7 @@
   padding-right: 20px;
 
   &:focus {
-    border-bottom-color: rgba(white, 0.5);
+    border-bottom-color: rgba(black, 0.5);
   }
 }
 
